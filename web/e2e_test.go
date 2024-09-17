@@ -31,8 +31,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/query"
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/query"
 )
 
 // TODO(hanwen): cut & paste from ../ . Should create internal test

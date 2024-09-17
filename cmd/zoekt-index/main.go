@@ -23,9 +23,9 @@ import (
 	"runtime/pprof"
 	"strings"
 
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/build"
-	"github.com/sourcegraph/zoekt/cmd"
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/build"
+	"github.com/aetimmes/zoekt/cmd"
 	"go.uber.org/automaxprocs/maxprocs"
 )
 

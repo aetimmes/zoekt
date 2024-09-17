@@ -8,7 +8,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/sourcegraph/zoekt"
+	"github.com/aetimmes/zoekt"
 )
 
 var metricFinalAggregateSize = promauto.NewHistogramVec(prometheus.HistogramOpts{

@@ -27,7 +27,7 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/grafana/regexp"
 
-	"github.com/sourcegraph/zoekt/query"
+	"github.com/aetimmes/zoekt/query"
 )
 
 var opnames = map[syntax.Op]string{

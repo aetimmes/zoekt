@@ -3,7 +3,7 @@ package server
 import (
 	"testing"
 
-	"github.com/sourcegraph/zoekt"
+	"github.com/aetimmes/zoekt"
 )
 
 func TestSamplingStream(t *testing.T) {

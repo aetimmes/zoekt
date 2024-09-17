@@ -20,10 +20,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/ctags"
-	"github.com/sourcegraph/zoekt/query"
-	"github.com/sourcegraph/zoekt/shards"
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/ctags"
+	"github.com/aetimmes/zoekt/query"
+	"github.com/aetimmes/zoekt/shards"
 )
 
 type scoreCase struct {

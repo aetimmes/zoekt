@@ -27,7 +27,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/sourcegraph/zoekt/internal/languages"
+	"github.com/aetimmes/zoekt/internal/languages"
 )
 
 var _ = log.Println

@@ -18,9 +18,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/build"
-	"github.com/sourcegraph/zoekt/ctags"
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/build"
+	"github.com/aetimmes/zoekt/ctags"
 
 	sglog "github.com/sourcegraph/log"
 )

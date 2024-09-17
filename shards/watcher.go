@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/aetimmes/zoekt"
 	"github.com/fsnotify/fsnotify"
-	"github.com/sourcegraph/zoekt"
 )
 
 type shardLoader interface {

@@ -29,12 +29,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/query"
+	"github.com/aetimmes/zoekt/shards"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/grafana/regexp"
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/query"
-	"github.com/sourcegraph/zoekt/shards"
 )
 
 func TestBasic(t *testing.T) {

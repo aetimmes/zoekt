@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/aetimmes/zoekt"
+	zjson "github.com/aetimmes/zoekt/json"
+	"github.com/aetimmes/zoekt/query"
 	"github.com/grafana/regexp"
-	"github.com/sourcegraph/zoekt"
-	zjson "github.com/sourcegraph/zoekt/json"
-	"github.com/sourcegraph/zoekt/query"
 )
 
 var Funcmap = template.FuncMap{

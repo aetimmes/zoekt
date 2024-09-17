@@ -7,8 +7,8 @@ import (
 	"io"
 	"strings"
 
+	"github.com/aetimmes/zoekt/grpc/grpcutil"
 	"github.com/dustin/go-humanize"
-	"github.com/sourcegraph/zoekt/grpc/grpcutil"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/protobuf/proto"

@@ -5,9 +5,9 @@ import (
 	"io"
 	"sync"
 
+	"github.com/aetimmes/zoekt/grpc/grpcutil"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/sourcegraph/zoekt/grpc/grpcutil"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 )

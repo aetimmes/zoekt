@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/query"
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/query"
 )
 
 func TestSearchTypeRepo(t *testing.T) {

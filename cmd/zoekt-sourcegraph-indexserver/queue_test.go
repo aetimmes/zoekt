@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/aetimmes/zoekt"
 	"github.com/google/go-cmp/cmp"
 	"github.com/sourcegraph/log/logtest"
-	"github.com/sourcegraph/zoekt"
 )
 
 func TestQueue(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/build"
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/build"
 )
 
 func TestHasMultipleShards(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"cloud.google.com/go/profiler"
-	"github.com/sourcegraph/zoekt"
+	"github.com/aetimmes/zoekt"
 )
 
 // Init starts the supported profilers IFF the environment variable is set.

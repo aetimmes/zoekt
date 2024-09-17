@@ -20,8 +20,8 @@ import (
 	"log"
 	"regexp/syntax"
 
+	"github.com/aetimmes/zoekt/internal/languages"
 	"github.com/grafana/regexp"
-	"github.com/sourcegraph/zoekt/internal/languages"
 )
 
 var _ = log.Printf

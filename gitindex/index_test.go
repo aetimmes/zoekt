@@ -24,15 +24,15 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/build"
+	"github.com/aetimmes/zoekt/ignore"
+	"github.com/aetimmes/zoekt/query"
+	"github.com/aetimmes/zoekt/shards"
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/build"
-	"github.com/sourcegraph/zoekt/ignore"
-	"github.com/sourcegraph/zoekt/query"
-	"github.com/sourcegraph/zoekt/shards"
 )
 
 func TestIndexEmptyRepo(t *testing.T) {
@@ -780,7 +780,7 @@ func TestSetTemplate(t *testing.T) {
 		t.Fatalf("setTemplatesFromConfig: %v", err)
 	}
 
-	if got, want := desc.FileURLTemplate, "https://github.com/sourcegraph/zoekt/blob/{{.Version}}/{{.Path}}"; got != want {
+	if got, want := desc.FileURLTemplate, "https://github.com/aetimmes/zoekt/blob/{{.Version}}/{{.Path}}"; got != want {
 		t.Errorf("got %q, want %q", got, want)
 	}
 }

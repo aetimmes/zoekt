@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sourcegraph/zoekt"
+	"github.com/aetimmes/zoekt"
 )
 
 type loggingLoader struct {

@@ -35,8 +35,8 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/grafana/regexp"
 
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/query"
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/query"
 )
 
 type crashSearcher struct{}

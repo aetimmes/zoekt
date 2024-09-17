@@ -22,12 +22,12 @@ import (
 	"runtime/pprof"
 	"strings"
 
-	"github.com/sourcegraph/zoekt/internal/profiler"
+	"github.com/aetimmes/zoekt/internal/profiler"
 	"go.uber.org/automaxprocs/maxprocs"
 
-	"github.com/sourcegraph/zoekt/cmd"
-	"github.com/sourcegraph/zoekt/ctags"
-	"github.com/sourcegraph/zoekt/gitindex"
+	"github.com/aetimmes/zoekt/cmd"
+	"github.com/aetimmes/zoekt/ctags"
+	"github.com/aetimmes/zoekt/gitindex"
 )
 
 func run() int {

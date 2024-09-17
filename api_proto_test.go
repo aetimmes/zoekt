@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package zoekt // import "github.com/sourcegraph/zoekt"
+package zoekt // import "github.com/aetimmes/zoekt"
 
 import (
 	"bytes"
@@ -25,9 +25,9 @@ import (
 	"testing/quick"
 	"time"
 
+	webproto "github.com/aetimmes/zoekt/grpc/protos/zoekt/webserver/v1"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	webproto "github.com/sourcegraph/zoekt/grpc/protos/zoekt/webserver/v1"
 	"google.golang.org/protobuf/proto"
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"

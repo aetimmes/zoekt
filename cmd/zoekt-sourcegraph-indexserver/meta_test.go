@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/build"
 	"github.com/google/go-cmp/cmp"
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/build"
 )
 
 func TestMergeMeta(t *testing.T) {

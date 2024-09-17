@@ -31,10 +31,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/build"
-	"github.com/sourcegraph/zoekt/query"
-	"github.com/sourcegraph/zoekt/shards"
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/build"
+	"github.com/aetimmes/zoekt/query"
+	"github.com/aetimmes/zoekt/shards"
 )
 
 func readTree(dir string) (map[string][]byte, error) {

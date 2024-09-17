@@ -33,9 +33,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sourcegraph/zoekt"
-	"github.com/sourcegraph/zoekt/build"
-	"github.com/sourcegraph/zoekt/ignore"
+	"github.com/aetimmes/zoekt"
+	"github.com/aetimmes/zoekt/build"
+	"github.com/aetimmes/zoekt/ignore"
 
 	"github.com/go-git/go-git/v5/config"
 	"github.com/go-git/go-git/v5/plumbing"

@@ -18,7 +18,7 @@ import (
 	"log"
 	"regexp/syntax"
 
-	"github.com/sourcegraph/zoekt/internal/syntaxutil"
+	"github.com/aetimmes/zoekt/internal/syntaxutil"
 )
 
 var _ = log.Println
